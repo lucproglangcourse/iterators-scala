@@ -2,7 +2,7 @@ name := "iterators-scala"
 
 version := "0.4"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.19" % Test
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.20" % Test
 
 logBuffered := false
 
