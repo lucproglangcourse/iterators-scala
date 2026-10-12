@@ -2,7 +2,7 @@ package imperative.simple
 
 object TemperatureConversion:
   def main(args: Array[String]): Unit =
-    var line: String | Null = scala.io.StdIn.readLine()
+    var line: String = scala.io.StdIn.readLine()
     while line != null do
       val raw = line.toInt
       val celsius = math.round(raw.toFloat / 20)
